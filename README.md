@@ -16,7 +16,7 @@ Add the service provider to your `config/app.php`:
  
 ...run `php artisan vendor:publish` to copy the config file.
 
-Edit the `config/livecoin.php` or add Bittrex api and secret in your `.env` file
+Edit the `config/livecoin.php` or add Livecoin api and secret in your `.env` file
 
 ```
 LIVECOIN_KEY={YOUR_API_KEY}
