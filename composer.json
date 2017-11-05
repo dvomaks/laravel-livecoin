@@ -1,0 +1,24 @@
+{
+    "name": "dvomaks/livecoin",
+    "description": "Livecoin API wrapper for Laravel",
+    "tags": ["livecoin", "api", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dvomaks",
+            "email": "dvomaks@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-curl": "*",
+        "laravel/framework": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dvomaks\\Laravel\\": "src/"
+        }
+    }
+}
