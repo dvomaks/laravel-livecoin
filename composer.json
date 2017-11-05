@@ -1,5 +1,5 @@
 {
-    "name": "dvomaks/livecoin",
+    "name": "dvomaks/laravel-livecoin",
     "description": "Livecoin API wrapper for Laravel",
     "tags": ["livecoin", "api", "laravel"],
     "type": "library",
