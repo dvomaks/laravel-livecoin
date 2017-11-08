@@ -42,7 +42,6 @@ $params = array(...);
 
 [Public data documentation](https://www.livecoin.net/api/public)
 
-BTC ```1NEXi3RS95ggjxFNeDpx6G76pRaJovYk2v```
 
 ```php
 Livecoin::exchangeTicker($params);
@@ -123,3 +122,5 @@ It's also the reason I'm sharing most of the reusable code I write.
 
 If you're feeling generous, you can always leave a tip. Any satoshi will do.
 May the chain be with you. And may you be with the chain.
+
+BTC ```1NEXi3RS95ggjxFNeDpx6G76pRaJovYk2v```
