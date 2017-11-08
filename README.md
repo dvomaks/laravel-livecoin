@@ -42,6 +42,8 @@ $params = array(...);
 
 [Public data documentation](https://www.livecoin.net/api/public)
 
+BTC ```1NEXi3RS95ggjxFNeDpx6G76pRaJovYk2v```
+
 ```php
 Livecoin::exchangeTicker($params);
 Livecoin::exchangeLastTrades($params);
