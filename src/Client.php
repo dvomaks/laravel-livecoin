@@ -66,7 +66,7 @@ class Client implements ClientContract
      */
     public function exchangeOrderBook($params)
     {
-        return $this->getRequest('exchange/last_trades', $params, false);
+        return $this->getRequest('exchange/order_book', $params, false);
     }
 
     /**
@@ -77,7 +77,7 @@ class Client implements ClientContract
      */
     public function exchangeAllOrderBook($params)
     {
-        return $this->getRequest('exchange/last_trades', $params, false);
+        return $this->getRequest('exchange/all/order_book', $params, false);
     }
 
     /**
@@ -88,7 +88,7 @@ class Client implements ClientContract
      */
     public function exchangeMaxbidMinask($params)
     {
-        return $this->getRequest('exchange/last_trades', $params, false);
+        return $this->getRequest('exchange/maxbid_minask', $params, false);
     }
 
     /**
@@ -100,7 +100,7 @@ class Client implements ClientContract
      */
     public function exchangeRestrictions($params)
     {
-        return $this->getRequest('exchange/last_trades', $params, false);
+        return $this->getRequest('exchange/restrictions', $params, false);
     }
 
     /**
@@ -110,7 +110,7 @@ class Client implements ClientContract
      */
     public function infoCoinInfo()
     {
-        return $this->getRequest('exchange/last_trades', [], false);
+        return $this->getRequest('info/coinInfo', [], false);
     }
 
 
