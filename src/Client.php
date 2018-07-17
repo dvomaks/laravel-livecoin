@@ -477,9 +477,8 @@ class Client implements ClientContract
 
         ksort($params);
         $fields = http_build_query($params, '', '&');
-        $signature = strtoupper(hash_hmac('sha256', $fields, $this->secretKey));
-
         $headers = [];
+        
         if ($private === true) {
             $signature = strtoupper(hash_hmac('sha256', $fields, $this->apiSecret));
             $headers = [
